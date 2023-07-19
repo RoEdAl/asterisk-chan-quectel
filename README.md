@@ -1,4 +1,4 @@
-# Astersik channel driver for *Quectel* and *SimCOM* modules
+# Asterisk channel driver for *Quectel* and *SimCOM* modules
 
 See original [README](//github.com/IchthysMaranatha/asterisk-chan-quectel/blob/master/README.md) of this project.
 
