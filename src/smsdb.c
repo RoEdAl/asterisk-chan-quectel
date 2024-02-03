@@ -375,7 +375,7 @@ int smsdb_put(const char* id, const char* addr, int ref, int parts, int order, c
         res = sqlite3_column_int(get_incomingmsg_cnt, 0);
     }
 
-    if (res > 0 && order == parts) {
+    if (res == parts) {
         {
             SCOPED_STMT(get_incomingmsg);
             if (bind_ast_str(get_incomingmsg, 1, fullkey) != SQLITE_OK) {
